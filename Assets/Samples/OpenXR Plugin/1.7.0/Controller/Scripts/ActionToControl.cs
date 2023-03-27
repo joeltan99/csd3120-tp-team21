@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
-using UnityEngine.XR.OpenXR.Input;
+//using UnityEngine.XR.OpenXR.Input;
 
 namespace UnityEngine.XR.OpenXR.Samples.ControllerSample
 {
@@ -44,11 +44,11 @@ namespace UnityEngine.XR.OpenXR.Samples.ControllerSample
             {
                 if(_actionReference.action != null &&
                     _actionReference.action.controls.Count > 0 &&
-                    _actionReference.action.controls[0].device != null &&
-                    OpenXRInput.TryGetInputSourceName(_actionReference.action, 0, out var actionName, OpenXRInput.InputSourceNameFlags.Component, _actionReference.action.controls[0].device))
+                    _actionReference.action.controls[0].device != null )//&&
+                   // OpenXRInput.TryGetInputSourceName(_actionReference.action, 0, out var actionName, OpenXRInput.InputSourceNameFlags.Component, _actionReference.action.controls[0].device))
                 {
                     if(null != _text)
-                        _text.text = actionName;
+                        //_text.text = actionName;
                     OnActionBound();
                     break;
                 }

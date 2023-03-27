@@ -1,5 +1,5 @@
 using UnityEngine.InputSystem;
-using UnityEngine.XR.OpenXR.Input;
+//using UnityEngine.XR.OpenXR.Input;
 
 namespace UnityEngine.XR.OpenXR.Samples.ControllerSample
 {
@@ -24,7 +24,7 @@ namespace UnityEngine.XR.OpenXR.Samples.ControllerSample
                 if (null == control)
                     return;
 
-                OpenXRInput.SendHapticImpulse(hapticAction.action, _amplitude, _frequency, _duration, control.device);
+                //OpenXRInput.SendHapticImpulse(hapticAction.action, _amplitude, _frequency, _duration, control.device);
             };
         }
     }

@@ -3,7 +3,7 @@ using System.Collections;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
 using UnityEngine.XR.Management;
-using UnityEngine.XR.OpenXR.Input;
+//using UnityEngine.XR.OpenXR.Input;
 
 namespace UnityEngine.XR.OpenXR.Samples.ControllerSample
 {
