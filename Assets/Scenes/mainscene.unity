@@ -6132,6 +6132,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 422740, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
   m_PrefabInstance: {fileID: 699762964}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &699762967 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11477634, guid: ba1fa4a8c66106b4988c88fe4b8e8502, type: 3}
+  m_PrefabInstance: {fileID: 699762964}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd425c2d06f39bf4899d07c05d0f10eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &702756936
 GameObject:
   m_ObjectHideFlags: 0
@@ -14009,6 +14020,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 414912, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
   m_PrefabInstance: {fileID: 1806054877}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1806054880 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 11438496, guid: e6ba3498ffa1e534b91a07264266e6b8, type: 3}
+  m_PrefabInstance: {fileID: 1806054877}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fd425c2d06f39bf4899d07c05d0f10eb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1810386330
 GameObject:
   m_ObjectHideFlags: 0
@@ -15198,6 +15220,7 @@ GameObject:
   - component: {fileID: 1989664826}
   - component: {fileID: 1989664831}
   - component: {fileID: 1989664830}
+  - component: {fileID: 1989664832}
   m_Layer: 0
   m_Name: Pen
   m_TagString: Untagged
@@ -15286,7 +15309,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1989664825}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.07154526, y: 1.5449274, z: -0.97626144}
+  m_LocalPosition: {x: 0.9775, y: 1.017, z: -0.481}
   m_LocalScale: {x: 0.02, y: 0.07, z: 0.02}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -15307,6 +15330,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d898f887ff55d14ab3716159dca1755, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  tip: {fileID: 1902862259}
+  drawingMaterial: {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  tipMaterial: {fileID: 2100000, guid: 11c39df496e47f3479fe5f4a2ec7a2a6, type: 2}
+  penWidth: 0.01
+  penColors:
+  - {r: 1, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0.30280232, b: 1, a: 1}
+  - {r: 1, g: 0.9964251, b: 0, a: 1}
+  rightHand: {fileID: 699762967}
+  leftHand: {fileID: 1806054880}
+  grabbable: {fileID: 1989664832}
 --- !u!54 &1989664831
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15334,6 +15369,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &1989664832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1989664825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 02d61468f8b77ae4b92c344bc9a600fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_allowOffhandGrab: 1
+  m_snapPosition: 0
+  m_snapOrientation: 0
+  m_snapOffset: {fileID: 0}
+  m_grabPoints: []
 --- !u!1 &1997941223
 GameObject:
   m_ObjectHideFlags: 0
