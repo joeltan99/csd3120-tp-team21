@@ -36,7 +36,10 @@ public class Marker : MonoBehaviour
 
     private void Draw()
     {
-        if(Physics.Raycast(_tip.position - transform.up*_tipHeight, transform.up, out _touch, _tipHeight * 2))
+        /*        if(Physics.Raycast(_tip.position - transform.up*_tipHeight, transform.up, out _touch, _tipHeight * 2))
+         *        
+        */
+        if (Physics.Raycast(_tip.position, transform.up, out _touch, _tipHeight))
         {
             if (_touch.transform.CompareTag("WhiteBoard"))
             {
