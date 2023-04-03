@@ -3,13 +3,13 @@ Team Project
 
 # Team Members
 
-Name: DARRION AW WEI TING, Student ID: 2000735
-Name: MIRA D/O LANKATHARAN, Student ID: 2002678
-Name: CELINE LEONG JIA YI, Student ID: 2002392
-Name: JEMIMAH CHAN SHU XIAN, Student ID: 2001827
-Name: PAN MINGXING, Student ID: 2002197
-Name: LIAO RUIQI RICKY, Student ID: 2001151
-Name: TAN ZHUO YAO, JOEL, Student ID: 2000672
+* Name: TAN ZHUO YAO, JOEL, Student ID: 2000672
+* Name: CELINE LEONG JIA YI, Student ID: 2002392
+* Name: MIRA D/O LANKATHARAN, Student ID: 2002678
+* Name: JEMIMAH CHAN SHU XIAN, Student ID: 2001827
+* Name: PAN MINGXING, Student ID: 2002197
+* Name: LIAO RUIQI RICKY, Student ID: 2001151
+* Name: DARRION AW WEI TING, Student ID: 2000735
 
 
 * Executable on: Desktop Chrome + Meta Quest 2*
