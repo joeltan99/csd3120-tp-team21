@@ -1,7 +1,7 @@
-# csd3120-tp-team21
-Team Project
+## csd3120-tp-team21
+Team Project Team 21
 
-# Team Members
+## Team Members
 
 * Name: TAN ZHUO YAO, JOEL, Student ID: 2000672
 * Name: CELINE LEONG JIA YI, Student ID: 2002392
@@ -12,12 +12,13 @@ Team Project
 * Name: DARRION AW WEI TING, Student ID: 2000735
 
 
+## Details
 * Executable on: Desktop Chrome + Meta Quest 2*
 * Locomotion method: Teleportation * 
 * Controls : Keyboard + Mouse / HMD Controller or Hand Tracking*
 
 
-* Interactive VR scene using Unity
+## Interactive VR scene using Unity
 This project is a web application that creates and renders an interactive VR scene using the Unity Vr Toolkit library. 
 The app uses the Unity Engine to create a default XR experience which includes:
 Interactable Molecule Models - H2, 02, H20, Mg, MgO, C, CO2
@@ -29,7 +30,7 @@ Interactions - Combining H2 & 02 models forms a H20 model + Using hand gestures
 
 
 
-* Running the project
+## Running the project
 1. Install Web-XR emeulator
 2. Open the command terminal (cmd) in the root directory of the repository.
 3. Update your node packet manager by calling 'npm update'
@@ -38,7 +39,7 @@ Interactions - Combining H2 & 02 models forms a H20 model + Using hand gestures
 6. Refresh the page to reload the scene
 
 
-* Files
+## Files
 - Source files
   https://github.com/barnarnarpowar/CSD3120_IPA/tree/main/HELLO-XR/src
 - Asset files
@@ -60,7 +61,7 @@ Platform - unity
 Language - C-sharp (C#)
 3.
 
-Issues & solve
+## Issues & solve
 1.Rebuild
 how to rebuild
 2.
@@ -80,11 +81,11 @@ ProjectSettings: contains required settings for project setup
 UserSettings: contains the layout settings for project setup
 package-lock.json: handle by npm and the version will be use is configue in package.json 
 
-VR - Unity
+## VR - Unity
 - Teaching chemistry
 - video 
 - interactables of molecules and atoms
-UI - scroll view, poke components, scroll view, manipulation, touch
+- UI - scroll view, poke components, scroll view, manipulation, touch
 1. Interact with Poke to Start VR activity
 2. Chemistry lesson plays (3D Audio)
 3. Interact with grab to manipulate models (related to the lesson taught) (W/ Haptic Feedback)
