@@ -1,6 +1,6 @@
-# csd3120-tp-team21
+## csd3120-tp-team21
 
-# Team Members
+## Team Members
 Name: TAN ZHUO YAO, JOEL, Student ID: 2000672
 Name: CELINE LEONG JIA YI, Student ID: 2002392
 Name: MIRA D/O LANKATHARAN, Student ID: 2002678
