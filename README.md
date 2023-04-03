@@ -10,12 +10,12 @@ Name: LIAO RUIQI RICKY, Student ID: 2001151
 Name: DARRION AW WEI TING, Student ID: 2000735
 
 
-* Executable on: Desktop Chrome + Meta Quest 2 *
+## Executable on: Desktop Chrome + Meta Quest 2 *
 * Locomotion method: Teleportation * 
 * Controls : HMD Controller or Hand Tracking *
 
 
-* Interactive VR scene using Unity
+## Interactive VR scene using Unity
 This project is a web application that creates and renders an interactive VR scene using the Unity Vr Toolkit library. 
 The app uses the Unity Engine to create a default XR experience which includes:
 Interactable Molecule Models - H2, 02, H20, Mg, MgO, C, CO2 (w/ haptic feedback)
@@ -26,7 +26,7 @@ Whiteboard - Drawing/writing what the user have learnt
 Interactions - Combining models using hand gestures / controllers (grab interactions) + Poke interaction to answer quizzes + Drawing (grab interaction)
 
 
-* Running the project
+## Running the project
 1. Install Web-XR emulator
 2. Download the "Submission" folder (Folder is too huge to be pushed to GitHub) - https://drive.google.com/file/d/13Mpdt8ps8ZABouuSLuz1YKszOyEh0QoD/view?usp=sharing
 3. Unzip & Place folder in the Main Repository
@@ -35,7 +35,7 @@ Interactions - Combining models using hand gestures / controllers (grab interact
 6. Open the project in your browser at http://localhost:8000
 
 
-* Files
+## Files
 - GitHub Folder
   https://github.com/joeltan99/csd3120-tp-team21
 - Submission Folder
@@ -44,10 +44,10 @@ Interactions - Combining models using hand gestures / controllers (grab interact
   https://github.com/joeltan99/csd3120-tp-team21/tree/Submission/Assets
 
 
-* Demo Video :
+## Demo Video :
 https://drive.google.com/file/d/1wtA3SbQa9aLBQmjM0-uHs28lgswdq249/view?usp=sharing
 
-* Trello Link (Member's Contribution)
+## Trello Link (Member's Contribution)
 https://trello.com/invite/b/qJ7CvoXq/ATTIf66e740d9b9b252c2f8df75b806e08a0A5353526/vr-tp
 
 
@@ -85,7 +85,7 @@ index.html: Website
 
 
 
-* Flow of the VR activity
+## Flow of the VR activity
 1. Audio Instructions
 2. Chemistry Lesson Video
 3. interacting & exploring with molecules and atoms (related to the lesson taught)
